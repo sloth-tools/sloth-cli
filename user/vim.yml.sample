@@ -1,0 +1,4 @@
+- name: Install Vim
+  homebrew:
+    name: vim
+    install_options: with-lua

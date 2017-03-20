@@ -1,0 +1,20 @@
+- name: Install casks
+  homebrew_cask:
+    update_homebrew: yes
+    state: present
+    install_options: force
+    name:
+      - 1password
+      - tunnelblick
+      - evernote
+      - whatsapp
+      - telegram
+      - twitter
+      - dropbox
+      - slack
+      - zepplin
+      - owncloud
+      - hipchat
+      - microsoft-office
+      - adobe-photoshop-cc
+      - adobe-illustrator-cc

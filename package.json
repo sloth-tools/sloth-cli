@@ -1,0 +1,29 @@
+{
+  "name": "sloth",
+  "version": "1.0.0",
+  "description": "A command line tool to automate the process of installing packages and apps on your mac.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "xing",
+    "node",
+    "ansible",
+    "brew",
+    "cask"
+  ],
+  "author": "",
+  "contributors": [
+    "Marcio Barrios <marciobarrios@gmail.com>",
+    "Alejandro Espinoza"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^2.1.2",
+    "js-yaml": "^3.8.2",
+    "vorpal": "^1.11.4"
+  }
+}

@@ -11,7 +11,7 @@
 Open **Terminal app** and just execute the following command:
 
 ```shell
-git clone https://source.xing.com/marcio-barrios/sloth.git && cd sloth && ./install.sh
+git clone https://github.com/sloth-tools/sloth-cli.git && cd sloth && ./install.sh
 ```
 
 After that you just need to follow the instructions:
@@ -28,7 +28,7 @@ Under the hood Sloth is generating for you a configuration file with all the pac
 
 ## Install more applications
 
-1. [Download](https://source.xing.com/marcio-barrios/sloth/archive/master.zip) the code to your device (or clone this repository)
+1. [Download](https://github.com/sloth-tools/sloth-cli/archive/master.zip) the code to your device (or clone this repository)
 2. Add more [Ansible Playbooks](http://docs.ansible.com/ansible/playbooks.html), just add them to `user` folder (you have some examples there, if you want to try remove the `*.sample` extension). You can find more applications to install [here](https://caskroom.github.io/search).
 3. In the terminal, run the following command in the project's folder: 
 ```shell
@@ -51,5 +51,5 @@ Under the hood Sloth is generating for you a configuration file with all the pac
 
 ## Thanks!
 
-- XING, because this tool was built in a [hack week](https://twitter.com/hashtag/hackweekxing) project
+- [XING](https://www.youtube.com/watch?v=TReXjRSlevg), because this tool was built in a [hack week](https://twitter.com/hashtag/hackweekxing) project
 - The sloth icon used as a logo was created by [Richard Nixon](https://thenounproject.com/nixonrichard) and provided via [The Noun Project](https://thenounproject.com/). It is licensed under a [Creative Commons license](https://creativecommons.org/licenses/by/3.0/us/).

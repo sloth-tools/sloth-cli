@@ -11,7 +11,7 @@
 Open **Terminal app** and just execute the following command:
 
 ```shell
-git clone https://github.com/sloth-tools/sloth-cli.git && cd sloth && ./install.sh
+git clone https://github.com/sloth-tools/sloth-cli.git && cd sloth-cli && ./install.sh
 ```
 
 After that you just need to follow the instructions:

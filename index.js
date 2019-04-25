@@ -14,7 +14,8 @@ vorpal
         name: 'role',
         choices: [
           'Developer',
-          'Designer'
+          'Designer',
+          'Xing'
         ],
         filter: val => val.toLowerCase()
       }
